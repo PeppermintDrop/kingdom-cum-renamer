@@ -15,15 +15,17 @@ Local only: Your API key stays on your PC.
 
 Built with Electron, React, Vite.
 
-Some technical stuff (Troubleshooting):
-Video Player: Had a massive headache with the HTML5 player not clearing the buffer when switching files. Fixed it by using key={selectedFile.path} to force React to remount the player node every time.
-API/CORS: To avoid CORS hell with local file protocols, I'm proxying all TPDB requests through Electron's native net module in the main process.
+Dev Notes & Transparency
+I am primarily a designer and "vibe-coder." I built the core logic and the UI myself, but I used AI assistance to handle the heavy lifting for the following parts:
+Multilingual Support: The UI is available in EN, DE, FR, ES, and JP. AI was used to ensure accurate translations and localization across the entire interface.
+Troubleshooting (Electron/React): I hit a wall with the HTML5 video player not clearing its buffer when switching files. The solution — using a key={selectedFile.path} to force React to remount the player — was developed with AI support.
 
-How to run it:
-If you want to build it yourself:
+API Proxying: To bypass CORS issues with local file protocols, I implemented a proxy for TPDB requests using Electron's native net module in the main process, guided by AI best practices.
+
+How to run it
 npm install
-npm run dev (for dev mode)
-npm run build (to compile the .exe)
+npm run dev
+npm run build (to package the app)
 
 Pricing (Robin Hood Policy):
 This is Pay What You Want on Gumroad. 
