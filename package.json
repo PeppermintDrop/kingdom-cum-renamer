@@ -1,0 +1,65 @@
+{
+    "scripts": {
+        "build": "npm run gen:licenses && electron-vite build",
+        "build:win": "npm run gen:licenses && electron-vite build && electron-builder --win --x64",
+        "preview": "electron-vite preview",
+        "clean": "rimraf out dist",
+        "dev": "electron-vite dev",
+        "gen:licenses": "license-checker --production --json --out ./src/renderer/public/licenses.json"
+    },
+    "description": "Premium Renamer Tool",
+    "version": "1.0.0",
+    "author": "PeppermintDrop",
+    "name": "kingdom-cum-renamer",
+    "main": "./out/main/index.js",
+    "homepage": "https://peppermintdrop.gumroad.com",
+    "devDependencies": {
+        "@tailwindcss/typography": "^0.5.19",
+        "@types/node": "^20.11.0",
+        "@types/react": "^18.2.0",
+        "@types/react-dom": "^18.2.0",
+        "@vitejs/plugin-react": "^4.2.0",
+        "autoprefixer": "^10.4.0",
+        "electron": "^29.0.0",
+        "electron-builder": "^24.13.0",
+        "electron-vite": "^2.1.0",
+        "license-checker": "^25.0.1",
+        "postcss": "^8.4.0",
+        "rimraf": "^5.0.0",
+        "tailwindcss": "^3.4.0",
+        "typescript": "^5.3.0",
+        "vite": "^5.1.0"
+    },
+    "dependencies": {
+        "@electron-toolkit/utils": "^3.0.0",
+        "clsx": "^2.1.0",
+        "framer-motion": "^11.0.0",
+        "lucide-react": "^0.300.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "tailwind-merge": "^2.2.0"
+    },
+    "build": {
+        "directories": {
+            "buildResources": "build",
+            "output": "dist_setup"
+        },
+        "files": [
+            "out/**/*",
+            "src/renderer/public/**/*"
+        ],
+        "productName": "KINGDOM CUM Renamer",
+        "win": {
+            "target": "nsis",
+            "icon": "build/icon.ico"
+        },
+        "appId": "com.peppermintdrop.kingdomcum",
+        "nsis": {
+            "oneClick": false,
+            "perMachine": true,
+            "shortcutName": "KINGDOM CUM Renamer",
+            "createDesktopShortcut": true,
+            "allowToChangeInstallationDirectory": true
+        }
+    }
+}

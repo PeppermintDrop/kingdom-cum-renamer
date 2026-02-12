@@ -1,0 +1,12 @@
+node_modules/
+out/
+build/
+dist_setup/
+Gumroad Images/
+visuals/
+resources/
+*.zip
+*.log
+.env
+.DS_Store
+licenses.txt

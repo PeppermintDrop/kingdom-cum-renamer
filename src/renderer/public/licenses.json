@@ -1,0 +1,649 @@
+{
+  "@electron-toolkit/utils@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/alex8088/electron-toolkit",
+    "publisher": "Alex Wei",
+    "email": "https://github.com/alex8088",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\@electron-toolkit\\utils",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\@electron-toolkit\\utils\\LICENSE"
+  },
+  "@electron/get@2.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/electron/get",
+    "publisher": "Samuel Attard",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\@electron\\get",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\@electron\\get\\LICENSE"
+  },
+  "@sindresorhus/is@4.6.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/is",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\@sindresorhus\\is",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\@sindresorhus\\is\\license"
+  },
+  "@szmarczak/http-timer@4.0.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/szmarczak/http-timer",
+    "publisher": "Szymon Marczak",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\@szmarczak\\http-timer",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\@szmarczak\\http-timer\\LICENSE"
+  },
+  "@types/cacheable-request@6.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\@types\\cacheable-request",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\@types\\cacheable-request\\LICENSE"
+  },
+  "@types/http-cache-semantics@4.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\@types\\http-cache-semantics",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\@types\\http-cache-semantics\\LICENSE"
+  },
+  "@types/keyv@3.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\@types\\keyv",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\@types\\keyv\\LICENSE"
+  },
+  "@types/node@20.19.32": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\@types\\node",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\@types\\node\\LICENSE"
+  },
+  "@types/responselike@1.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\@types\\responselike",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\@types\\responselike\\LICENSE"
+  },
+  "@types/yauzl@2.10.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/DefinitelyTyped/DefinitelyTyped",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\@types\\yauzl",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\@types\\yauzl\\LICENSE"
+  },
+  "boolean@3.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/thenativeweb/boolean",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\boolean",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\boolean\\LICENSE.txt"
+  },
+  "buffer-crc32@0.2.13": {
+    "licenses": "MIT",
+    "repository": "https://github.com/brianloveswords/buffer-crc32",
+    "publisher": "Brian J. Brennan",
+    "email": "brianloveswords@gmail.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\buffer-crc32",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\buffer-crc32\\LICENSE"
+  },
+  "cacheable-lookup@5.0.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/szmarczak/cacheable-lookup",
+    "publisher": "Szymon Marczak",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\cacheable-lookup",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\cacheable-lookup\\LICENSE"
+  },
+  "cacheable-request@7.0.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lukechilds/cacheable-request",
+    "publisher": "Luke Childs",
+    "email": "lukechilds123@gmail.com",
+    "url": "http://lukechilds.co.uk",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\cacheable-request",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\cacheable-request\\LICENSE"
+  },
+  "clone-response@1.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/clone-response",
+    "publisher": "Luke Childs",
+    "email": "lukechilds123@gmail.com",
+    "url": "http://lukechilds.co.uk",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\clone-response",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\clone-response\\LICENSE"
+  },
+  "clsx@2.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lukeed/clsx",
+    "publisher": "Luke Edwards",
+    "email": "luke.edwards05@gmail.com",
+    "url": "https://lukeed.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\clsx",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\clsx\\license"
+  },
+  "debug@4.4.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/debug-js/debug",
+    "publisher": "Josh Junon",
+    "url": "https://github.com/qix-",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\debug",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\debug\\LICENSE"
+  },
+  "decompress-response@6.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/decompress-response",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\decompress-response",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\decompress-response\\license"
+  },
+  "defer-to-connect@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/szmarczak/defer-to-connect",
+    "publisher": "Szymon Marczak",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\defer-to-connect",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\defer-to-connect\\LICENSE"
+  },
+  "define-data-property@1.1.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/define-data-property",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\define-data-property",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\define-data-property\\LICENSE"
+  },
+  "define-properties@1.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/define-properties",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\define-properties",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\define-properties\\LICENSE"
+  },
+  "detect-node@2.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/iliakan/detect-node",
+    "publisher": "Ilya Kantor",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\detect-node",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\detect-node\\LICENSE"
+  },
+  "electron@29.4.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/electron/electron",
+    "publisher": "Electron Community",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\electron",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\electron\\LICENSE"
+  },
+  "end-of-stream@1.4.5": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mafintosh/end-of-stream",
+    "publisher": "Mathias Buus",
+    "email": "mathiasbuus@gmail.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\end-of-stream",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\end-of-stream\\LICENSE"
+  },
+  "env-paths@2.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/env-paths",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\env-paths",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\env-paths\\license"
+  },
+  "es-define-property@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/es-define-property",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\es-define-property",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\es-define-property\\LICENSE"
+  },
+  "es-errors@1.3.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/es-errors",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\es-errors",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\es-errors\\LICENSE"
+  },
+  "es6-error@4.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/bjyoungblood/es6-error",
+    "publisher": "Ben Youngblood",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\es6-error",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\es6-error\\LICENSE.md"
+  },
+  "escape-string-regexp@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/escape-string-regexp",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\escape-string-regexp",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\escape-string-regexp\\license"
+  },
+  "extract-zip@2.0.1": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/maxogden/extract-zip",
+    "publisher": "max ogden",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\extract-zip",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\extract-zip\\LICENSE"
+  },
+  "fd-slicer@1.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/andrewrk/node-fd-slicer",
+    "publisher": "Andrew Kelley",
+    "email": "superjoe30@gmail.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\fd-slicer",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\fd-slicer\\LICENSE"
+  },
+  "framer-motion@11.18.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/motiondivision/motion",
+    "publisher": "Matt Perry",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\framer-motion",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\framer-motion\\LICENSE.md"
+  },
+  "fs-extra@8.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jprichardson/node-fs-extra",
+    "publisher": "JP Richardson",
+    "email": "jprichardson@gmail.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\fs-extra",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\fs-extra\\LICENSE"
+  },
+  "get-stream@5.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/get-stream",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\get-stream",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\get-stream\\license"
+  },
+  "global-agent@3.0.0": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/gajus/global-agent",
+    "publisher": "Gajus Kuizinas",
+    "email": "gajus@gajus.com",
+    "url": "http://gajus.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\global-agent",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\global-agent\\LICENSE"
+  },
+  "globalthis@1.0.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/System.global",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\globalthis",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\globalthis\\LICENSE"
+  },
+  "gopd@1.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/gopd",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\gopd",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\gopd\\LICENSE"
+  },
+  "got@11.8.6": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/got",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\got",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\got\\license"
+  },
+  "graceful-fs@4.2.11": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/node-graceful-fs",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\graceful-fs",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\graceful-fs\\LICENSE"
+  },
+  "has-property-descriptors@1.0.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/inspect-js/has-property-descriptors",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\has-property-descriptors",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\has-property-descriptors\\LICENSE"
+  },
+  "http-cache-semantics@4.2.0": {
+    "licenses": "BSD-2-Clause",
+    "repository": "https://github.com/kornelski/http-cache-semantics",
+    "publisher": "Kornel Lesiński",
+    "email": "npms2@geekhood.net",
+    "url": "https://kornel.ski/",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\http-cache-semantics",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\http-cache-semantics\\LICENSE"
+  },
+  "http2-wrapper@1.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/szmarczak/http2-wrapper",
+    "publisher": "Szymon Marczak",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\http2-wrapper",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\http2-wrapper\\LICENSE"
+  },
+  "js-tokens@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/lydell/js-tokens",
+    "publisher": "Simon Lydell",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\js-tokens",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\js-tokens\\LICENSE"
+  },
+  "json-buffer@3.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/dominictarr/json-buffer",
+    "publisher": "Dominic Tarr",
+    "email": "dominic.tarr@gmail.com",
+    "url": "http://dominictarr.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\json-buffer",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\json-buffer\\LICENSE"
+  },
+  "json-stringify-safe@5.0.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/json-stringify-safe",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\json-stringify-safe",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\json-stringify-safe\\LICENSE"
+  },
+  "jsonfile@4.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jprichardson/node-jsonfile",
+    "publisher": "JP Richardson",
+    "email": "jprichardson@gmail.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\jsonfile",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\jsonfile\\LICENSE"
+  },
+  "keyv@4.5.4": {
+    "licenses": "MIT",
+    "repository": "https://github.com/jaredwray/keyv",
+    "publisher": "Jared Wray",
+    "email": "me@jaredwray.com",
+    "url": "http://jaredwray.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\keyv",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\keyv\\README.md"
+  },
+  "kingdom-cum-renamer@1.0.0": {
+    "licenses": "UNKNOWN",
+    "publisher": "PeppermintDrop",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer"
+  },
+  "loose-envify@1.4.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/zertosh/loose-envify",
+    "publisher": "Andres Suarez",
+    "email": "zertosh@gmail.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\loose-envify",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\loose-envify\\LICENSE"
+  },
+  "lowercase-keys@2.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/lowercase-keys",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\lowercase-keys",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\lowercase-keys\\license"
+  },
+  "lucide-react@0.300.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/lucide-icons/lucide",
+    "publisher": "Eric Fennis",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\lucide-react",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\lucide-react\\LICENSE"
+  },
+  "matcher@3.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/matcher",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\matcher",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\matcher\\license"
+  },
+  "mimic-response@1.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/mimic-response",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\mimic-response",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\mimic-response\\license"
+  },
+  "mimic-response@3.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/mimic-response",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\decompress-response\\node_modules\\mimic-response",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\decompress-response\\node_modules\\mimic-response\\license"
+  },
+  "motion-dom@11.18.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/motiondivision/motion",
+    "publisher": "Matt Perry",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\motion-dom",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\motion-dom\\LICENSE.md"
+  },
+  "motion-utils@11.18.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/motiondivision/motion",
+    "publisher": "Matt Perry",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\motion-utils",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\motion-utils\\LICENSE.md"
+  },
+  "ms@2.1.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/vercel/ms",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\ms",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\ms\\license.md"
+  },
+  "normalize-url@6.1.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/normalize-url",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\normalize-url",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\normalize-url\\license"
+  },
+  "object-keys@1.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/ljharb/object-keys",
+    "publisher": "Jordan Harband",
+    "email": "ljharb@gmail.com",
+    "url": "http://ljharb.codes",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\object-keys",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\object-keys\\LICENSE"
+  },
+  "once@1.4.0": {
+    "licenses": "ISC",
+    "repository": "https://github.com/isaacs/once",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\once",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\once\\LICENSE"
+  },
+  "p-cancelable@2.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/p-cancelable",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\p-cancelable",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\p-cancelable\\license"
+  },
+  "pend@1.2.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/andrewrk/node-pend",
+    "publisher": "Andrew Kelley",
+    "email": "superjoe30@gmail.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\pend",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\pend\\LICENSE"
+  },
+  "progress@2.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/visionmedia/node-progress",
+    "publisher": "TJ Holowaychuk",
+    "email": "tj@vision-media.ca",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\progress",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\progress\\LICENSE"
+  },
+  "pump@3.0.3": {
+    "licenses": "MIT",
+    "repository": "https://github.com/mafintosh/pump",
+    "publisher": "Mathias Buus Madsen",
+    "email": "mathiasbuus@gmail.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\pump",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\pump\\LICENSE"
+  },
+  "quick-lru@5.1.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/quick-lru",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\quick-lru",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\quick-lru\\license"
+  },
+  "react-dom@18.3.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/react",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\react-dom",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\react-dom\\LICENSE"
+  },
+  "react@18.3.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/react",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\react",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\react\\LICENSE"
+  },
+  "resolve-alpn@1.2.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/szmarczak/resolve-alpn",
+    "publisher": "Szymon Marczak",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\resolve-alpn",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\resolve-alpn\\LICENSE"
+  },
+  "responselike@2.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/responselike",
+    "publisher": "lukechilds",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\responselike",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\responselike\\LICENSE"
+  },
+  "roarr@2.15.4": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/gajus/roarr",
+    "publisher": "Gajus Kuizinas",
+    "email": "gajus@gajus.com",
+    "url": "http://gajus.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\roarr",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\roarr\\LICENSE"
+  },
+  "scheduler@0.23.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/facebook/react",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\scheduler",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\scheduler\\LICENSE"
+  },
+  "semver-compare@1.0.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/substack/semver-compare",
+    "publisher": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\semver-compare",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\semver-compare\\LICENSE"
+  },
+  "semver@6.3.1": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/node-semver",
+    "publisher": "GitHub Inc.",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\semver",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\semver\\LICENSE"
+  },
+  "semver@7.7.4": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/node-semver",
+    "publisher": "GitHub Inc.",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\global-agent\\node_modules\\semver",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\global-agent\\node_modules\\semver\\LICENSE"
+  },
+  "serialize-error@7.0.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/sindresorhus/serialize-error",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\serialize-error",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\serialize-error\\license"
+  },
+  "sprintf-js@1.1.3": {
+    "licenses": "BSD-3-Clause",
+    "repository": "https://github.com/alexei/sprintf.js",
+    "publisher": "Alexandru Mărășteanu",
+    "email": "hello@alexei.ro",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\sprintf-js",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\sprintf-js\\LICENSE"
+  },
+  "sumchecker@3.0.1": {
+    "licenses": "Apache-2.0",
+    "repository": "https://github.com/malept/sumchecker",
+    "publisher": "Mark Lee",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\sumchecker",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\sumchecker\\LICENSE"
+  },
+  "tailwind-merge@2.6.1": {
+    "licenses": "MIT",
+    "repository": "https://github.com/dcastil/tailwind-merge",
+    "publisher": "Dany Castillo",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\tailwind-merge",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\tailwind-merge\\LICENSE.md"
+  },
+  "tslib@2.8.1": {
+    "licenses": "0BSD",
+    "repository": "https://github.com/Microsoft/tslib",
+    "publisher": "Microsoft Corp.",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\tslib",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\tslib\\LICENSE.txt"
+  },
+  "type-fest@0.13.1": {
+    "licenses": "(MIT OR CC0-1.0)",
+    "repository": "https://github.com/sindresorhus/type-fest",
+    "publisher": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "https://sindresorhus.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\type-fest",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\type-fest\\license"
+  },
+  "undici-types@6.21.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/nodejs/undici",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\undici-types",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\undici-types\\LICENSE"
+  },
+  "universalify@0.1.2": {
+    "licenses": "MIT",
+    "repository": "https://github.com/RyanZim/universalify",
+    "publisher": "Ryan Zimmerman",
+    "email": "opensrc@ryanzim.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\universalify",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\universalify\\LICENSE"
+  },
+  "wrappy@1.0.2": {
+    "licenses": "ISC",
+    "repository": "https://github.com/npm/wrappy",
+    "publisher": "Isaac Z. Schlueter",
+    "email": "i@izs.me",
+    "url": "http://blog.izs.me/",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\wrappy",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\wrappy\\LICENSE"
+  },
+  "yauzl@2.10.0": {
+    "licenses": "MIT",
+    "repository": "https://github.com/thejoshwolfe/yauzl",
+    "publisher": "Josh Wolfe",
+    "email": "thejoshwolfe@gmail.com",
+    "path": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\yauzl",
+    "licenseFile": "D:\\Neues Projekt\\PeppermintRenamer\\node_modules\\yauzl\\LICENSE"
+  }
+}
