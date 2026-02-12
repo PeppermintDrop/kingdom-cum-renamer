@@ -35,6 +35,8 @@ This software is **Pay What You Want** on Gumroad.
 Use that money for your family or buy a beer for a friend. 
 Only contribute if you have disposable income and wish to support my design and development sessions.
 
+[**Download on Gumroad**](https://peppermintdrop.gumroad.com/l/kingdomcum)
+
 ---
 ### How to run
 ```bash
