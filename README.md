@@ -28,8 +28,6 @@ This project was built using Electron, React, TypeScript, and Vite. I used AI as
 
 ---
 
----
-
 ### Pricing (Robin Hood Policy)
 This software is **Pay What You Want** on Gumroad.
 
