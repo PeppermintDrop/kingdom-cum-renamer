@@ -28,8 +28,19 @@ This project was built using Electron, React, TypeScript, and Vite. I used AI as
 
 ---
 
+---
+
+### Pricing (Robin Hood Policy)
+This software is **Pay What You Want** on Gumroad.
+
+> **Important:** If you are a student or facing financial difficulties, please enter **$0**. 
+Use that money for your family or buy a beer for a friend. 
+Only contribute if you have disposable income and wish to support my design and development sessions.
+
+---
 ### How to run
 ```bash
 npm install
 npm run dev
 npm run build
+
